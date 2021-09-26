@@ -7,7 +7,8 @@ print("content-type:text/plain")
 print("Access-Control-Allow-Origin: *")
 print()
 
-UDP_IP = "192.168.29.254"
+# IP of the system
+UDP_IP = ""
 
 """
 Use port number higher than 1024,
