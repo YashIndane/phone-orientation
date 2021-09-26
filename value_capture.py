@@ -6,6 +6,7 @@ This Script is for capturing the sensor values and storing them in CSV file for 
 import socket
 import csv
 
+# IP of the system
 UDP_IP = ""
 UDP_PORT = 339
 
