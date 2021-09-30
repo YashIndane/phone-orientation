@@ -24,3 +24,5 @@ pip install tensorflow
 ## App installation
 
 Install Sensorstream IMU+GPS App from Google PlayStore.
+
+![](https://github.com/YashIndane/repo-images/blob/main/imu.png)
