@@ -9,8 +9,6 @@ Sensorstream app continously sends the sensor values to [up-down-API.py](https:/
 
 # Installations
 
-## If directly using the Webapp without training own model
-
 Keras
 
 ```
