@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/-Python-blue?style=for-the-badge&logo=python)
+![](https://img.shields.io/badge/-Python-grey?style=flat-square&logo=python)
 
 # phone-orientation
 A webapp that displays is your phone upright or up-side down
