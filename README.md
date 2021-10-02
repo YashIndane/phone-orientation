@@ -1,5 +1,9 @@
+
+
 # phone-orientation
 A webapp that displays is your phone upright or up-side down
+
+Demo Link ->
 
 ## Working
 
@@ -29,4 +33,4 @@ Install Sensorstream IMU+GPS App from Google PlayStore.
 
 ## Training the model
 
-If you need your own model then use [value_capture.py](https://github.com/YashIndane/phone-orientation/blob/main/value_capture.py) to first get the sensor data. Use Orientation sensor data for getting the orientation. Now use the [model_training.py](https://github.com/YashIndane/phone-orientation/blob/main/model_training.py) to train the model
+If you need your own model then use [value_capture.py](https://github.com/YashIndane/phone-orientation/blob/main/value_capture.py) to first get the sensor data. Use Orientation sensor data for getting the orientation. Now use the [model_training.py](https://github.com/YashIndane/phone-orientation/blob/main/model_training.py) to train the model.
