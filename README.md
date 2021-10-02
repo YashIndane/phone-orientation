@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/-Python-grey?style=flat-square&logo=python) ![](https://img.shields.io/badge/-JS-grey?style=flat-square&logo=javascript) ![](https://img.shields.io/badge/-HTML-grey?style=flat-square&logo=html)
+![](https://img.shields.io/badge/-Python-grey?style=for-the-badge&logo=python) ![](https://img.shields.io/badge/-JS-grey?style=for-the-badge&logo=javascript) ![](https://img.shields.io/badge/-HTML-grey?style=for-the-badge&logo=html)
 
 # phone-orientation
 A webapp that displays is your phone upright or up-side down
