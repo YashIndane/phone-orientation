@@ -36,7 +36,7 @@ with open(FILE_NAME, "a", newline="") as file :
         y_rotation_vector = float(data[-2])
         x_rotation_vector = float(data[-3])
 
-        print(x_rotation_vector, y_rotation_vector, z_rotation_vector, sep = "  ")
+        print(x_rotation_vector, y_rotation_vector, z_rotation_vector, sep="  ")
 
         writer = csv.writer(file)
         writer.writerow([z_rotation_vector, y_rotation_vector, x_rotation_vector, face_dir])
