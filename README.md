@@ -16,13 +16,13 @@ Sensorstream app continously sends the sensor values to [up-down-API.py](https:/
 Keras
 
 ```
-pip install keras
+$ pip install keras
 ```
 
 Tensorflow
 
 ```
-pip install tensorflow
+$ pip install tensorflow
 ```
 
 ## App installation
