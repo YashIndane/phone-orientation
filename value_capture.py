@@ -6,20 +6,20 @@ This Script is for capturing the sensor values and storing them in CSV file for 
 import socket
 import csv
 
-# IP of the system
+#IP of the system
 UDP_IP = ""
 UDP_PORT = 339
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
 sock.bind((UDP_IP, UDP_PORT))
 
-# Use '1' for face up and '0' for face down
+#Use '1' for face up and '0' for face down
 face_dir = 1
 
-# Number of readings to take for each face condition
+#Number of readings to take for each face condition
 NUMBER_OF_READINGS = 1000
 
-# Name of csv file where readings to be saved
+#Name of csv file where readings to be saved
 FILE_NAME = "rotation_vector_readings.csv"
 
 counter = 0
@@ -28,7 +28,7 @@ with open(FILE_NAME, "a", newline="") as file:
 
     while counter < NUMBER_OF_READINGS:
 
-        # Buffer size is 1024 bytes 
+        #Buffer size is 1024 bytes 
         data, address = sock.recvfrom(1024)
         data = str(data).split(",")
 
