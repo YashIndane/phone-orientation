@@ -24,11 +24,11 @@ FILE_NAME = "rotation_vector_readings.csv"
 
 counter = 0
 
-with open(FILE_NAME, "a", newline="") as file :
+with open(FILE_NAME, "a", newline="") as file:
 
     while counter < NUMBER_OF_READINGS:
 
-        # buffer size is 1024 bytes 
+        # Buffer size is 1024 bytes 
         data, address = sock.recvfrom(1024)
         data = str(data).split(",")
 
@@ -45,4 +45,4 @@ with open(FILE_NAME, "a", newline="") as file :
 
     file.close()
 
-print("Data saved")    
+print("Data saved")
