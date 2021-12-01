@@ -7,7 +7,7 @@ print("content-type:text/plain")
 print("Access-Control-Allow-Origin: *")
 print()
 
-# IP of the system
+#IP of the system
 UDP_IP = ""
 
 """
@@ -21,7 +21,7 @@ sock.bind((UDP_IP, UDP_PORT))
 
 model = load_model("model-3.h5")
 
-# Buffer size is 1024 bytes
+#Buffer size is 1024 bytes
 data, address = sock.recvfrom(1024)
 data = str(data).split(",")
 
