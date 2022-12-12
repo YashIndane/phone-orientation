@@ -9,7 +9,7 @@ Demo Link ->
 
 Sensorstream app continously sends the sensor values to [up-down-API.py](https://github.com/YashIndane/phone-orientation/blob/main/cgi-bin/up-down-API.py). The JS file in the flask app [home.js](https://github.com/YashIndane/phone-orientation/blob/main/static/home.js) continously sends `GET` request to the [up-down-API.py](https://github.com/YashIndane/phone-orientation/blob/main/cgi-bin/up-down-API.py) and with the help of `cgi` Python module the orientation of the phone is send as a response. According to the response [home.js](https://github.com/YashIndane/phone-orientation/blob/main/static/home.js) adjusts the image on browser.
 
-![](https://github.com/YashIndane/repo-images/blob/main/phoneorien.png)
+![phoneorien](https://user-images.githubusercontent.com/53041219/207033615-dbd8de23-60b1-4304-9f7b-f2798f50695b.png)
 
 ## Installations
 
@@ -29,7 +29,7 @@ $ pip install tensorflow
 
 Install Sensorstream IMU+GPS App from Google PlayStore.
 
-![](https://github.com/YashIndane/repo-images/blob/main/imu.png)
+![imu](https://user-images.githubusercontent.com/53041219/207033675-fe6e8cb7-7d17-4f27-a3de-7b4cebd81948.png)
 
 ## Training the model
 
